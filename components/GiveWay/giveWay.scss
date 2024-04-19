@@ -1,0 +1,526 @@
+.GiveWay {
+    .gwWidgetSection {
+        padding: 95px 0 0;
+
+        .primaryColor {
+            color: var(--primaryColor);
+        }
+
+        p {
+            margin-block-start: 0;
+            margin-block-end: 0;
+            margin-inline-start: 0;
+            margin-inline-end: 0;
+            padding-block-start: 0;
+            padding-block-end: 0;
+            padding-inline-start: 0;
+            padding-inline-end: 0;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+
+        .container {
+            max-width: 1320px;
+            width: 100%;
+            padding-right: var(--bs-gutter-x, .75rem);
+            padding-left: var(--bs-gutter-x, .75rem);
+            margin-right: auto;
+            margin-left: auto;
+
+            .mdContainer2 {
+                max-width: 1120px;
+                margin: 0 auto;
+
+                .topCenterTitleCol.titleWdLg {
+                    max-width: 940px;
+                }
+
+                .topCenterTitleCol {
+                    margin: 0 auto;
+                    max-width: 510px;
+                    font-size: 18px;
+                    text-align: center;
+                    padding-bottom: 25px;
+                    color: var(--blackColor);
+
+                    .xlTitle {
+                        font-size: 42px;
+                    }
+
+                    p {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+        .gwWidgetContent {
+            position: relative;
+
+            .container {
+                max-width: 1320px;
+                width: 100%;
+                padding-right: var(--bs-gutter-x, .75rem);
+                padding-left: var(--bs-gutter-x, .75rem);
+                margin-right: auto;
+                margin-left: auto;
+
+                .gwContent {
+                    position: relative;
+
+                    .wDescriptionLeftCol {
+                        padding-top: 180px;
+                        display: flex;
+                        flex-direction: column;
+                        height: 100%;
+                        padding-bottom: 60px;
+
+                        .wDescriptionCard {
+                            margin-right: 50px;
+                            background-color: #fff;
+                            box-shadow: 0 3px 10px rgba(35, 35, 35, 0.1);
+                            border-radius: 4px;
+                            padding: 10px 15px;
+                            position: relative;
+                            color: gray;
+                            font-size: 18px;
+                            margin-bottom: 65px;
+                            -webkit-transform: translateY(60px);
+                            -ms-transform: translateY(60px);
+                            transform: translateY(60px);
+                            opacity: 0;
+                            -webkit-transition: opacity 800ms ease-in-out 300ms, transform 800ms ease-in-out 300ms;
+                            -o-transition: opacity 800ms ease-in-out 300ms, transform 800ms ease-in-out 300ms;
+                            transition: opacity 800ms ease-in-out 300ms, transform 800ms ease-in-out 300ms;
+                            z-index: 2;
+                            position: relative;
+
+                            h4 {
+                                font-size: 20px;
+                                color: #212427;
+                                font-family: var(--titleFont);
+                            }
+
+                            p {
+                                margin: 0;
+                                margin-block-start: 0;
+                                margin-block-end: 0;
+                                margin-inline-start: 0;
+                                margin-inline-end: 0;
+                                padding-block-start: 0;
+                                padding-block-end: 0;
+                                padding-inline-start: 0;
+                                padding-inline-end: 0;
+                            }
+                            
+                        }
+                        .wDescriptionCard.wDesc2 {
+                            margin-top: auto;
+                        }
+                        .dCardLine {
+                            position: absolute;
+                            top: calc(100% + 10px);
+                            left: calc(100% - 65px);
+                            width: 165px;
+                            z-index: 1;
+
+                            img {
+                                max-width: 100%;
+                            }
+                        }
+
+                        
+
+                        .inViewport.wDescriptionCard {
+                            opacity: 1;
+                            -webkit-transform: translateY(0);
+                            -ms-transform: translateY(0);
+                            transform: translateY(0);
+                        }
+                    }
+
+
+
+
+                    .gWidgetCol {
+                        margin: 0 auto;
+                        width: 500px;
+                        border-radius: 14x;
+                        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+                        padding: 4px 4px 14px;
+                        height: 100%;
+                        position: relative;
+                        border-radius: 14px;
+
+                        .tooltipToggle {
+
+                            a,
+                            a:hover {
+                                color: inherit;
+                                text-decoration: none;
+
+                                .circleAnim {
+                                    background-color: var(--primaryDark);
+                                    border-radius: 50%;
+                                    height: 26px;
+                                    width: 26px;
+                                    position: relative;
+                                    padding: 6px;
+
+                                    span {
+                                        display: block;
+                                        background-color: var(--white);
+                                        border-radius: 50%;
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                }
+                            }
+
+                            p {
+                                margin-block-start: 0;
+                                margin-block-end: 0;
+                                margin-inline-start: 0;
+                                margin-inline-end: 0;
+                                padding-block-start: 0;
+                                padding-block-end: 0;
+                                padding-inline-start: 0;
+                                padding-inline-end: 0;
+                            }
+                        }
+
+                        .gWidgetHeader {
+                            padding: 2px 10px 2px;
+                            font-weight: 500;
+                            font-size: 14px;
+                            color: var(--white);
+                            position: relative;
+                            z-index: 2;
+                        }
+
+                        .gWidgetBody {
+                            background-color: var(--white);
+                            border-radius: 8px;
+                            position: relative;
+                            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+
+                            .gWTitleCol h4 {
+                                font-size: 20px;
+                                font-weight: 500;
+                                padding: 15px 10px 10px;
+                                text-align: center;
+                                line-height: 1.5;
+                                margin-bottom: 0;
+                                color: black;
+                            }
+
+                            .gwTopContent {
+                                padding: 20px;
+
+                                .wPrizesCol h5 {
+                                    font-size: 14px;
+                                    font-weight: 600;
+                                }
+                            }
+
+                            .gwBtmContent {
+                                background-color: #F8F8F8;
+                                padding: 30px 20px 40px;
+                                border-radius: 0 0 4px 4px;
+
+                                h4 {
+                                    font-size: 20px;
+                                    text-align: center;
+                                }
+
+                                a,
+                                a:hover {
+                                    color: inherit;
+                                }
+
+                                .sIcons {
+                                    display: -webkit-flex;
+                                    display: -ms-flex;
+                                    display: flex;
+                                    -ms-align-items: center;
+                                    align-items: center;
+
+                                }
+
+                                .smSIcons {
+
+                                    .textUnderline,
+                                    .textUnderline:hover {
+                                        text-decoration: underline;
+                                    }
+
+                                    li {
+                                        padding-right: 5px;
+
+                                        a {
+                                            text-decoration: none;
+                                        }
+                                    }
+                                }
+
+                                .entryTasksLink::before {
+                                    content: "";
+                                    height: 10px;
+                                    width: 10px;
+                                    border-style: solid;
+                                    border-color: #212427;
+                                    border-width: 0px 2px 2px 0px;
+                                    transition: border-width 150ms ease-in-out;
+                                    position: absolute;
+                                    right: 20px;
+                                    top: 50%;
+                                    -webkit-transition: all 200ms ease-in-out 0s;
+                                    -o-transition: all 200ms ease-in-out 0s;
+                                    transition: all 200ms ease-in-out 0s;
+                                    -webkit-transform: translate(0, -50%) rotate(45deg);
+                                    -o-transform: translate(0, -50%) rotate(45deg);
+                                    transform: translate(0, -50%) rotate(45deg);
+                                }
+
+                                .entryTasks {
+                                    margin-top: 37px;
+
+                                    li {
+                                        position: relative;
+                                        border: 1px solid #ECECEC;
+                                        background-color: var(--white);
+                                        box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
+                                        border-radius: 5px;
+
+                                        .entryTasksLink {
+                                            cursor: pointer;
+                                            position: relative;
+
+                                            .iIcon {
+                                                background-color: #FF40AC;
+                                            }
+
+                                            .entryTaskIcon {
+                                                width: 44px;
+                                                height: 44px;
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                border-radius: 4px 0 0 4px;
+                                                padding: 10px;
+                                            }
+
+                                            .tIcon {
+                                                background-color: #0866FF;
+                                            }
+
+                                            .sLinksStyle {
+                                                font-size: 18px;
+                                                color: var(--darkColor);
+                                                padding: 8px 40px 8px 15px;
+                                            }
+                                        }
+                                    }
+
+                                }
+
+                                .entryTasks>ul>li+li {
+                                    margin-top: 20px;
+                                }
+
+                                .hct {
+                                    text-align: center;
+                                    padding: 22px 0 0px;
+
+                                    span {
+                                        display: inline-block;
+                                        cursor: pointer;
+                                        color: #BEBEBE;
+                                    }
+
+                                    .actCompletedTasks .ctTrigger::before {
+                                        content: "Hide ";
+                                    }
+
+                                    .actCompletedTasks .tDdArrow {
+                                        -webkit-transform: rotate(180deg);
+                                        -ms-transform: rotate(180deg);
+                                        transform: rotate(180deg);
+                                    }
+
+                                    .completedTaskCol {
+                                        .entryTasks ul>li {
+                                            box-shadow: none;
+                                        }
+                                    }
+                                }
+
+                                .entryTasks {
+                                    .entryTaskIcon {
+                                        width: 44px;
+                                        height: 44px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        border-radius: 4px 0 0 4px;
+                                        padding: 10px;
+                                    }
+                                }
+                            }
+
+                            .widgetCountCol {
+                                margin-top: 50px;
+
+                                ul {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-around;
+                                    text-align: center;
+                                }
+
+                                h3 {
+                                    font-size: 28px;
+                                    font-weight: 300;
+                                    color: var(--darkColor);
+                                }
+
+                                span {
+                                    display: block;
+                                    font-size: 14px;
+                                    color: var(--grayColor);
+                                    font-weight: 400;
+                                }
+                            }
+                        }
+
+                        .gWidgetFooter {
+                            background-color: #242924;
+                            border-radius: 8px;
+                            color: #ECECEC;
+                            font-size: 14px;
+                            font-weight: 300;
+                            padding: 28px 20px 5px;
+                            margin-top: -20px;
+
+                            .gWidgetFooterText {
+                                border-left: 1px solid rgba(112, 112, 112, 0.33);
+                                padding-left: 20px;
+                                margin-left: 15px;
+
+                                p {
+                                    margin: 0;
+                                    display: flex;
+                                    align-items: center;
+                                }
+
+                                img {
+                                    display: block;
+                                    max-width: 130px;
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                    }
+
+                    .gWidgetCol::before {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        top: 0;
+                        height: 50px;
+                        border-radius: 14px 14px 0 0;
+                    }
+                }
+
+                .wDescriptionRightCol {
+                    padding-top: 120px;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    .inViewport.wDescriptionCard {
+                        opacity: 1;
+                        -webkit-transform: translateY(0);
+                        -ms-transform: translateY(0);
+                        transform: translateY(0);
+                    }
+                    .wDescriptionCard {
+                        margin-left: 50px;
+                        background-color: #fff;
+                        box-shadow: 0 3px 10px rgba(35, 35, 35, 0.1);
+                        border-radius: 4px;
+                        padding: 10px 15px;
+                        position: relative;
+                        color: gray;
+                        font-size: 18px;
+                        margin-bottom: 65px;
+                        -webkit-transform: translateY(60px);
+                        -ms-transform: translateY(60px);
+                        transform: translateY(60px);
+                        opacity: 0;
+                        -webkit-transition: opacity 800ms ease-in-out 300ms, transform 800ms ease-in-out 300ms;
+                        -o-transition: opacity 800ms ease-in-out 300ms, transform 800ms ease-in-out 300ms;
+                        transition: opacity 800ms ease-in-out 300ms, transform 800ms ease-in-out 300ms;
+                        z-index: 2;
+                        position: relative;
+
+                        h4 {
+                            font-size: 20px;
+                            color: #212427;
+                            font-family: var(--titleFont);
+                        }
+                    }
+                     .dCardLine {
+                        position: absolute;
+                        top: calc(100% + 10px);
+                        right: calc(100% - 65px);
+                        width: 165px;
+                    }
+                    .wDesc3 {
+                        margin-top: auto;
+                        margin-bottom: auto;
+                    }
+
+                }
+            }
+        }
+
+
+        .gwWidgetContent::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 120px;
+            height: 350px;
+            background-position: center top;
+            background-repeat: repeat-x;
+        }
+
+        .gwWidgetContent::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 350px;
+            bottom: 50px;
+            z-index: -1;
+        }
+    }
+
+    .homepageWidgetSection .gwWidgetContent::before {
+        background-image: url(https://giveawayhopper.com/assets/images/widget-bg-shapes.png);
+    }
+
+    .homepageWidgetSection .gwWidgetContent::after {
+        background-color: var(--primaryDark);
+    }
+
+    .homepageWidgetSection .gWidgetCol {
+        background-color: #60CC73;
+    }
+}

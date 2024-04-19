@@ -1,0 +1,55 @@
+.ShapeTop {
+    .shapeTopLayer {
+        background-image: url(https://giveawayhopper.com/assets/images/l-top-shape.webp);
+        background-position: top center;
+        height: 75px;
+        overflow: hidden;
+        background-repeat: repeat-x;
+        background-size: auto 100%;
+    }
+
+    .bgShapeLayerCol {
+        background-color: #f9f9f9;
+        padding: 60px 0 100px;
+
+        .container {
+            max-width: 1320px;
+            width: 100%;
+            padding-right: var(--bs-gutter-x, .75rem);
+            padding-left: var(--bs-gutter-x, .75rem);
+            margin-right: auto;
+            margin-left: auto;
+
+            .mdContainer2 {
+                max-width: 1120px;
+                margin: 0 auto;
+
+                .topCenterTitleCol.titleWdLg {
+                    max-width: 940px;
+                    
+                }
+                .topCenterTitleCol {
+                    margin: 0 auto;
+                    max-width: 510px;
+                    font-size: 18px;
+                    text-align: center;
+                    padding-bottom: 25px;
+                    color: var(--blackColor);
+                }
+                .manageCardsCol {
+                    padding-top: 40px;
+                }
+            }
+        }
+
+        
+    }
+    .shapeBtmLayer {
+        background-image: url(https://giveawayhopper.com/assets/images/l-btm-shape.png);
+        background-position: bottom center;
+        height: 42px;
+        overflow: hidden;
+        background-repeat: repeat-x;
+        background-size: auto 100%;
+    }
+}

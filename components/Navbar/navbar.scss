@@ -1,0 +1,60 @@
+.Navbar {
+  padding: 0 15px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 99;
+  -webkit-transition: all 300ms ease-in-out 0s;
+  -o-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
+  font-size: 18px;
+  padding: 22px 0;
+  background-color: var(--whiteColor);
+
+  .navbar-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .logo-section {
+      margin-right: 60px;
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+    .nav-menu {
+      flex-grow: 1; // Expand to fill remaining space
+      display: flex;
+      justify-content: space-between;
+
+      .menu-list {
+        display: flex;
+        gap: 20px;
+
+        .menu-item {
+          a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s ease;
+
+            &:hover {
+              color: #555;
+            }
+          }
+        }
+      }
+    }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}
