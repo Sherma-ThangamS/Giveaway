@@ -89,10 +89,9 @@
                             color: gray;
                             font-size: 18px;
                             margin-bottom: 65px;
-                            -webkit-transform: translateY(60px);
-                            -ms-transform: translateY(60px);
-                            transform: translateY(60px);
-                            opacity: 0;
+                            animation-name: slideUp;
+                            opacity: 1;
+                            animation-duration: 3s;
                             -webkit-transition: opacity 800ms ease-in-out 300ms, transform 800ms ease-in-out 300ms;
                             -o-transition: opacity 800ms ease-in-out 300ms, transform 800ms ease-in-out 300ms;
                             transition: opacity 800ms ease-in-out 300ms, transform 800ms ease-in-out 300ms;
@@ -135,12 +134,12 @@
 
                         
 
-                        .inViewport.wDescriptionCard {
-                            opacity: 1;
-                            -webkit-transform: translateY(0);
-                            -ms-transform: translateY(0);
-                            transform: translateY(0);
-                        }
+                        // .inViewport.wDescriptionCard {
+                        //     opacity: 1;
+                        //     // -webkit-transform: translateY(0);
+                        //     // -ms-transform: translateY(0);
+                        //     // transform: translateY(0);
+                        // }
                     }
 
 
@@ -523,4 +522,8 @@
     .homepageWidgetSection .gWidgetCol {
         background-color: #60CC73;
     }
+}
+
+@keyframes slideUp {
+    from{transform: translateY(500px);}
 }
